@@ -63,9 +63,10 @@ public class Ex20_triangle {
             System.out.print("단수는: ");
             n = scanner.nextInt();
         } while (n <= 0);
-        triangleLB(5);
-        triangleLU(5);
-        triangleRU(5);
-        triangleRB(5);
+
+        triangleLB(n);
+        triangleLU(n);
+        triangleRU(n);
+        triangleRB(n);
     }
 }
