@@ -13,7 +13,7 @@ public class Ex05_maxOfArrayRand {
         return max;
     }
 
-    public static void main(String[] args) {
+    public static void maiㅎㅑn(String[] args) {
         Random random = new Random();
 
         System.out.println("키의 최댓값을 구합니다.");
