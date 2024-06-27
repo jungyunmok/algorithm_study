@@ -3,7 +3,7 @@ package ch03_3;
 import java.util.Scanner;
 
 // 선형 검색(검색 과정 출력)
-public class Ex12_seqSearchEx {
+public class Ex03_seqSearchEx {
     // 배열 a의 앞쪽 n개의 요소에서 key와 일치하는 요소 선형검색(보초법)
     static int seqSearchEx(int[] a, int n, int key) {
         System.out.print("   |");

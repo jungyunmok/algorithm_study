@@ -3,7 +3,7 @@ package ch03_3;
 import java.util.Scanner;
 
 // 이진 검색
-public class Ex10_binSearch {
+public class Ex01_binSearch {
     // 요솟수가 n개인 배열 a에서 key와 같은 요소를 이진 검색
     static int binSearch(int[] a, int n, int key) {
         int pl = 0; // 검색 범위의 첫 인덱스

@@ -3,7 +3,7 @@ package ch03_3;
 import java.util.Scanner;
 
 // 선형 검색(보초법 - for문)
-public class Ex11_seqSearchSenFor {
+public class Ex02_seqSearchSenFor {
     // 배열 a의 앞쪽 n개의 요소에서 key와 일치하는 요소 선형검색(보초법)
     static int seqSearchSen(int[] a, int n, int key) {
         int i;
