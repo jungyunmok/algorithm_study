@@ -1,7 +1,7 @@
 package ch04_1;
 
 // int형 고정 길이 스택
-public class Ex01_intStack {
+public class IntStack {
     private int[] stk; // 스택용 배열
     private int capacity; // 스택 용량
     private int ptr; // 스택 포인터 - 스택에 쌓여있는 데이터 수
@@ -17,7 +17,7 @@ public class Ex01_intStack {
     }
 
     // 생성자
-    public Ex01_intStack(int maxlen) {
+    public IntStack(int maxlen) {
         ptr = 0;
         capacity = maxlen;
         try {
