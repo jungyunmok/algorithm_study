@@ -1,9 +1,9 @@
-package ch05_01;
+package ch05_02;
 
 import java.util.Scanner;
 
 // 재귀 메서드 recur2 분석
-public class Ex07_recur2 {
+public class Ex02_recur2 {
     // 재귀 메서드
     static void recur(int n) {
         if (n > 0) {

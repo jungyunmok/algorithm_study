@@ -1,9 +1,9 @@
-package ch05_01;
+package ch05_02;
 
 import java.util.Scanner;
 
 // 재귀 함수 이해
-public class Ex06_recur {
+public class Ex01_recur {
     // 재귀 함수
     static void recur(int n) {
         if (n > 0) {
