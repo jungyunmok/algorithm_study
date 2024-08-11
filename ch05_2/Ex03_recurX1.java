@@ -1,4 +1,4 @@
-package ch05_02;
+package ch05_2;
 
 import ch04_1.IntStack;
 

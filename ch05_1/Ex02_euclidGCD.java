@@ -1,17 +1,16 @@
-package ch05_01;
+package ch05_1;
 
 import java.util.Scanner;
 
-// 유클리드 호제법 최대공약수를 비재귀적으로 구하기
-public class Ex04_euclidGCDEx {
-    // 정수 x, y의 최대공약수를 비재귀적으로 구하여 반환
+// 유클리드 호제법으로 최대공약수를 구함
+public class Ex02_euclidGCD {
+    // 정수 x, y의 최대공약수를 구하여 반환
     static int gcd(int x, int y) {
-        while(y != 0) {
-            int temp = y;
-            y = x % y;
-            x = temp;
+        if (y == 0) {
+            return x;
+        } else {
+            return gcd(y, x % y);
         }
-        return x;
     }
 
     public static void main(String[] args) {
@@ -29,7 +28,7 @@ public class Ex04_euclidGCDEx {
 }
 /*
 두 정수의 최대공약수를 구합니다.
-정수를 입력하세요: 3
-정수를 입력하세요: 18
-최대공약수는 3 입니다.
+정수를 입력하세요: 22
+정수를 입력하세요: 8
+최대공약수는 2 입니다.
  */

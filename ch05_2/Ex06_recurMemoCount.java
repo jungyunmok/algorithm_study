@@ -1,13 +1,15 @@
-package ch05_02;
+package ch05_2;
 
 import java.util.Scanner;
 
-// 재귀 함수를 메모화로 구현
-public class Ex04_recurMemo {
+// 재귀 함수를 메모화로 구현 - 호출한 횟수 카운트
+public class Ex06_recurMemoCount {
+    static int count;
     static String[] memo;
 
     // 메모화를 도입한 recur 메서드
     static void recur(int n) {
+        count++;
         if (memo[n + 1] != null) {
             System.out.print(memo[n + 1]); // 메모가 있는 경우 메모를 출력
         } else {
@@ -29,10 +31,11 @@ public class Ex04_recurMemo {
 
         memo = new String[x + 2];
         recur(x);
+
+        System.out.println("메서드 호출 횟수: " + count);
     }
 }
 /*
-정수를 입력하세요.: 4
 1
 2
 3
@@ -40,4 +43,5 @@ public class Ex04_recurMemo {
 4
 1
 2
+메서드 호출 횟수: 9
  */
